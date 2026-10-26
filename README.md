@@ -18,9 +18,9 @@ curl -fsSL https://raw.githubusercontent.com/owenferg/oGet/main/install.sh | sh
 
 ## How to use
 1. Visit [TNM Downloader](https://apps.nationalmap.gov/downloader/) and search for the products you would like to download
-2. On the Products page, click the "document" icon to download a `.txt` file containing URLs to all product downloads you have selected (See below screenshot)
+2. On the Products page, click the document icon to download a `.txt` file containing URLs to all product downloads you have selected (See below screenshot)
 
 <img width="1244" height="1426" alt="image" src="https://github.com/user-attachments/assets/e52286e1-ac2c-4aa9-ac8d-0111d7c838e5" />
 
 3. Drag `data.txt` into oGet to immediately start your bulk download
-4. Once complete, click the "file" icon to find your downloaded items
+4. Once complete, click the folder icon to find your downloaded items
