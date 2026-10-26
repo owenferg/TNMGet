@@ -1,4 +1,4 @@
-A barebones app for MacOS that handles downloading en masse from TNM Downloader. On their site, TNM recommends (uGet)[https://github.com/ugetdm] for this purpose; however, this project is Windows-only and no longer maintained. 
+A barebones app for MacOS that handles downloading en masse from TNM Downloader. On their site, TNM recommends [uGet](https://github.com/ugetdm) for this purpose; however, this project is Windows-only and no longer maintained. 
 
 ## Install
 
