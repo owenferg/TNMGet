@@ -17,12 +17,12 @@ jobs:
       - name: Build
         run: VERSION=1.0.${{ github.run_number }} ./build.sh
       - name: Package
-        run: ditto -c -k --keepParent oGet.app oGet.zip
+        run: ./package.sh
       - name: Publish
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "v1.0.${{ github.run_number }}" oGet.zip \
+          gh release create "v1.0.${{ github.run_number }}" oGet.dmg oGet.zip \
             --title "oGet 1.0.${{ github.run_number }}" \
             --target "${{ github.sha }}" \
             --generate-notes \

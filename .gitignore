@@ -2,3 +2,4 @@ oGet.app
 build/
 *.zip
 .DS_Store
+*.dmg
