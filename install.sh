@@ -1,9 +1,9 @@
 #!/bin/sh
-# Installs the latest oGet into /Applications.
+# Installs the latest TNMGet into /Applications.
 set -e
 tmp=$(mktemp -d)
-curl -fsSL https://github.com/owenferg/oGet/releases/latest/download/oGet.zip -o "$tmp/oGet.zip"
-rm -rf /Applications/oGet.app
-ditto -x -k "$tmp/oGet.zip" /Applications
+curl -fsSL https://github.com/owenferg/TNMGet/releases/latest/download/TNMGet.zip -o "$tmp/TNMGet.zip"
+rm -rf /Applications/TNMGet.app
+ditto -x -k "$tmp/TNMGet.zip" /Applications
 rm -rf "$tmp"
-open /Applications/oGet.app
+open /Applications/TNMGet.app

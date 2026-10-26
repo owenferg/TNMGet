@@ -22,8 +22,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "v1.0.${{ github.run_number }}" oGet.dmg oGet.zip \
-            --title "oGet 1.0.${{ github.run_number }}" \
+          gh release create "v1.0.${{ github.run_number }}" TNMGet.dmg TNMGet.zip \
+            --title "TNMGet 1.0.${{ github.run_number }}" \
             --target "${{ github.sha }}" \
             --generate-notes \
             --latest

@@ -1,12 +1,12 @@
 import SwiftUI
 
 @main
-struct OGet: App {
+struct TNMGet: App {
     @NSApplicationDelegateAdaptor private var delegate: AppDelegate
     @StateObject private var dl = Downloader.shared
 
     var body: some Scene {
-        Window("oGet", id: "main") {
+        Window("TNMGet", id: "main") {
             ContentView().environmentObject(dl)
         }
         .windowStyle(.hiddenTitleBar)
@@ -92,11 +92,11 @@ struct ContentView: View {
         }
     }
 
-    // Places "oGet" just right of the traffic-light buttons.
+    // Places "TNMGet" just right of the traffic-light buttons.
     private func addTitle() {
         guard let zoom = NSApp.windows.lazy.compactMap({ $0.standardWindowButton(.zoomButton) }).first,
               let bar = zoom.superview else { return }
-        let label = NSTextField(labelWithString: "oGet")
+        let label = NSTextField(labelWithString: "TNMGet")
         label.font = .systemFont(ofSize: 13, weight: .semibold)
         label.sizeToFit()
         label.setFrameOrigin(NSPoint(x: zoom.frame.maxX + 12, y: zoom.frame.midY - label.frame.height / 2))
