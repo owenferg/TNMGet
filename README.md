@@ -1,4 +1,4 @@
-A barebones app for MacOS that handles downloading en masse from TNM Downloader.
+A barebones app for MacOS that handles downloading en masse from TNM Downloader. Inspired by uGet, a non-maintained Windows downloader meant for the same purpose.
 
 ## Install
 
